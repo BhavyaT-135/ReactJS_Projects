@@ -1,5 +1,6 @@
-Objective: The objective of this tutorial is to develop a very basic React JS application covering the following concepts:
+###Objective:###
 
+The objective of this tutorial is to develop a very basic React JS application covering the following concepts:
 Create-react-app CLI
 ReactJS Components
 State & Properties
@@ -8,10 +9,17 @@ JSX - JavaScript Syntax Extension
 Lifecycle Methods
 HTTP Requests
 
+This application is for project manager, where he/she could add new Projects, view the projects added. Also see the TODO items invoked from external REST API https://jsonplaceholder.typicode.com/todos
 
-Requirement:
+###Instructions for the setup:###
+1. Git clone the project
+2. Once the clone is complete, open the command prompt and move to the folder \projectmanager (via cd command)
+3. Execute the command "npm start"
+4. Open the browser and hit the URL http://localhost:3000/#, to see the output (screen shots provided below).
 
-Refer the screen shots below:
+
+###Screen shots:###
+
 1. Home Page:
 It provides option to add new projects, display the projects already added (under the heading "Latest Projects"), finally list the TODO List by invoking the external REST API https://jsonplaceholder.typicode.com/todos
 Note: The REST API link is a fake online Rest API from JSONPlaceholder, which can be used for quick testing and prototyping.
